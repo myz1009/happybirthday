@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi 马颐真|祝你|生日快乐|happy everyday|#countdown 3||');
+      S.UI.simulate('Dear瑶瑶|不知不觉|我们|在一起|100天啦！|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
@@ -18,7 +18,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="BirthdayCake.html";
+        window.location.href="build/index.html";
       }
     });
 
